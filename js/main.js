@@ -6,7 +6,9 @@ let speenWind = document.querySelector(".wind-speed");
 let timeZone = document.querySelector('.time-zone')
 let date = document.querySelector(".date");
 window.onload = function () {
-  getWeather();
+   if (confirm("Get Your Location Please")) {
+    getWeather();
+  }
 };
 function getWeather() {
   if (navigator.geolocation) {
