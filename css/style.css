@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #e0cffe;
+  font-family: "DM Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+}
+.main-box {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #160455;
+  min-height: 500px;
+  width: 400px;
+  padding: 35px;
+  border-radius: 5px;
+  text-align: center;
+}
+.width-120 {
+  width: 120px;
+}
+i.o-icon {
+  font-size: 25px !important;
+  position: absolute;
+  left: 62%;
+  top: -15px;
+}
+.temprature-text {
+  font-size: 80px;
+  color: white;
+  position: relative;
+}
+.country-name {
+  font-size: 40px;
+}
+
+.text-color {
+  color: white;
+}
+.column {
+  flex-direction: column;
+}
+
+.info {
+  padding: 15px;
+}
